@@ -26,6 +26,15 @@ Compare your code from the previous assignment with [Leo's posted solutions](./M
 
 Then write a brief reflection (100-300 words) discussing what you got right, what you got close but not quite, and where you may have missed the mark. Also discuss what you learned by comparing your code to the posted solutions. The reflection must be substantive. For example, you may find that you missed something in the assignment because you did not put enough time in it or because you did not start work early. It's fine to acknowledge these issues. It is also important to propose a plan to avoid them in the future. And, in later reflections, evaluate how that plan worked.
 
+In the assignment for WEEK 02 you were given class `MinHeap`. The class had a dozen of methods in 300 lines of code. One of the methods (`heapifyUp`) was incomplete. You had to complete it. The solution presented here is very compact, practically implemented with 5 lines of code (shown as pseudocode here):
+
+```java
+int index = last used position in underlying array;
+while (min-heap property is violated) {
+    swap(parent(index), index);
+    index = parent(index); }
+```
+
 * Was your code sufficiently documented with comments? (Commenting is a skill introduced in COMP 170 or similar course).
 
 * Did you test your code to verify that it compiles and returns correct results? (Compiling code is also a skill introduced in COMP 170 or similar).
