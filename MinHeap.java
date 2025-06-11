@@ -1,4 +1,5 @@
 import java.util.Arrays; // only for Arrays.toString() printing
+
 /**
  * Simple object implemention of the minimum-heap
  */
@@ -188,9 +189,29 @@ public class MinHeap {
     } // method swap
 
     /**
-     * THIS IS YOUR ASSIGNMENT
+     * SOLUTION TO ASSIGNMENT FOR WEEK 02
+     * 
+     * This method is called after we add a new element to the min-heap. The new
+     * element is placed at the first available position of the underlying array.
+     * Then it is compared to its parent to determine if the min-heap property is
+     * violated. If there is a violation, we swap child and parent and repeat the
+     * process until the property is restored.
      */
     private void heapifyUp() {
+        // Start at the last inserted element
+        int index = this.usage - 1;
+        /*
+         * The loop successively swaps any child and parent elements that violate the
+         * min-heap property. Child is at position [index] and its parent at position
+         * [parent(index)]. The loop stops when it encounters a child-parent pair that
+         * does not violate the min-heap property or when it reaches the front of the
+         * array.
+         */
+        while (parent(index) >= 0 &&
+                this.underlying[index] < this.underlying[parent(index)]) {
+            swap(parent(index), index);
+            index = parent(index);
+        }
     } // method heapifyUp
 
     /**
