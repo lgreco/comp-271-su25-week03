@@ -26,8 +26,15 @@ Write a method with header
 ```java
 public int indexOf(String stationName)
 ```
+that returns the position of the named station: 0 if it's the first station, 1 if it's the second, etc. If the station we search for is not present in the train line, the method should return -1.
 
-## 
+## Predicate-based search
+
+Write a method with header
+```java
+public boolean contains(String stationName)
+```
+that returns `true` if the named station is present in the train line and `false` otherwise.
 
 
 # Reflect
@@ -45,10 +52,10 @@ while (min-heap property is violated) {
     index = parent(index); }
 ```
 
-* Was your code sufficiently documented with comments? (Commenting is a skill introduced in COMP 170 or similar course).
+* Was your code sufficiently documented with comments?.
 
-* Did you test your code to verify that it compiles and returns correct results? (Compiling code is also a skill introduced in COMP 170 or similar).
-
+* Did you test your code to verify that it compiles and returns correct results?
+* 
 Your reflection should be submitted together with the current homework assignment due 6/11. Write your reflection as a *markdown* file called `reflection.md` in the current assignment's repository. **MarkDown** is a fairly simple markup (I know!) language that's worth learning. You can use a [simple cheat sheet](https://www.markdownguide.org/basic-syntax/) for MarkDown (.md) files or you can look at the course code of any `.md` file I share with you such as this one here. You can open any `.md` file on your CodeSpaces editor to see how it's written. 
 
 If MarkDown is not your cup of tea that's ok too. Write your reflection in an email and send it to me with the header "reflection" in the subject line. But if you see yourself as a programmer/computer scientist down the road, it's worth the time to learn to write in MarkDown.
