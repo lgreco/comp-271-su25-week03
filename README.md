@@ -16,8 +16,7 @@ There is no final exam for the course. There will be a final assignemnt that wil
 
 # Code
 
-Study the code in classes xxx xxx xxx.
-
+Study the code in classes [`Station`](./Station.java), [`TrainLine`](./TrainLine.java), and [`TrainLine_Implementation`](./TrainLine_Implementation.java)
 
 
 # Reflect
