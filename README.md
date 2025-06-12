@@ -39,6 +39,10 @@ public boolean contains(String stationName)
 that returns `true` if the named station is present in the train line and `false` otherwise.
 
 
+# Study
+
+* [Tutorial about classes and objects](https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html)
+
 # Reflect
 
 Compare your code from the previous assignment with [Leo's posted solutions](./MinHeap.java#L191). 
