@@ -16,6 +16,8 @@ There is no final exam for the course. There will be a final assignemnt that wil
 
 # Code
 
+For this coding part, class `TrainLine_Implementation` has 8 basic tests that you must pass. The class cannot be compiled before you write the specified methods below. Your code must pass all tests in the implementation class.
+
 ## Faster addition of new station
 
 Study the code in classes [`Station`](./Station.java), [`TrainLine`](./TrainLine.java), and [`TrainLine_Implementation`](./TrainLine_Implementation.java). Notice that method `TrainLine.add` has to iterate over the entire line to find the last station, before adding a new station at the end of the line. Investigate if there is a way to avoid the traversal, recalling our discussion about counting the number of stations in the line. Document your strategy as comments for method `TrainLine.add` then implement the changes you proposed. Your code should work with class `TrainLine_Implementation` just like before, i.e., the stations should be added in the same order and shown in the same order when the object is printed.
