@@ -41,7 +41,7 @@ that returns `true` if the named station is present in the train line and `false
 
 # Study
 
-* [Tutorial about classes and objects](https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html)
+* <a href="https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html" target = "_blank">Tutorial about classes and objects</a>
 
 # Reflect
 
